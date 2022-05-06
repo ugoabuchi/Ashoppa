@@ -5,7 +5,6 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import StatusBar from '../components/Statusbar';
 import { NavPropsType } from '../types';
-import { ModalPopUpBox } from '../components/Modal';
 
 
     //Setting notification handler
