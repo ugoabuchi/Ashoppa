@@ -27,7 +27,7 @@ const SplashScreen = ({ navigation, general_session }: NavPropsType) => {
     });
 
    timerHandlerListener.current = setTimeout(() => {
-      //navigation.replace('LoadingScreen');
+      navigation.replace('LoadingScreen');
     }, SPLASH_SCREEN_TIMEOUT * 1000)
 
     return () => {

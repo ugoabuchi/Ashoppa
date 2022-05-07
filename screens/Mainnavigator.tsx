@@ -39,7 +39,7 @@ const RouteStack = () => (
       <Stack.Screen name="OnBoarding1" component={OnBoarding1} />
       <Stack.Screen name="SplashScreen" component={SplashScreen} />
       <Stack.Screen name="LoadingScreen" component={LoadingScreen} />
-      <Stack.Screen name="AfterLogin" component={AfterLogin} />
+      <Stack.Screen name="Main" component={AfterLogin} />
     </Stack.Navigator>
 
 )

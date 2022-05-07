@@ -50,7 +50,8 @@ const LoadingScreen = ({ navigation, route, login_session, profile_session, gene
     yourCallBack: () => {
       timerHandlerListener.current = setTimeout(() => {
 
-        //navigation.replace('Main', {screen: 'AfterLogin'})
+        navigation.replace('Main', {screen: 'AfterLogin'})
+        //console.log("Logged In");
 
       }, SPLASH_SCREEN_TIMEOUT * 1000)
 
@@ -60,7 +61,8 @@ const LoadingScreen = ({ navigation, route, login_session, profile_session, gene
   useEffect(() => {
     if (shouldLogIn == true && login_session.login_session == false) {
       timerHandlerListener.current = setTimeout(() => {
-        //navigation.replace('LoadingScreen');
+        console.log("not logged in");
+        //navigation.replace('OnBoarding1');
       }, SPLASH_SCREEN_TIMEOUT * 1000);
     }
   }, [shouldLogIn])

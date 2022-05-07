@@ -5,7 +5,7 @@ import { LightMode, DarkMode } from "../../components/styles";
 import { getBearer } from "../../components/common";
 
 const initialState = {
-        login_session: false
+        login_session: true
     }
 
 const initialStateofProfile =  {
@@ -27,7 +27,7 @@ const initialStateofGeneral =  {
             statusBar: false,
             fingerprint: false,
         },
-        CartCount: 0
+        CartCount: 2
         
     }
 }

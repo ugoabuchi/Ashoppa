@@ -20,8 +20,8 @@ const LightTheme = {
     LARGEFONTSIZE: height >= 500 ? 16 : 15,
     MEDIUMFONTSIZE: height >= 500 ? 15 : 14,
     SMALLFONTSIZE: height >= 500 ? 14 : 12,
-    TABICONBIG: 30,
-    TABICONSMALL: 24,
+    TABICONBIG: 24,
+    TABICONSMALL: 18,
     BUTTONICONSIZE1: height >= 500 ? 16 : 14,
     BUTTONICONSIZE2: height >= 500 ? 18 : 16,
     BUTTONICONSIZE3: height >= 500 ? 22 : 20

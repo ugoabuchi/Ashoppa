@@ -3,7 +3,6 @@ import { BackHandler } from 'react-native';
 import { COPYRIGHTS, REDUX_SESSION_LOCAL_STORE_KEYS } from '../constants/constants';
 import { IsLoggedInType, logOutType, ReduxSession, storeLocalyType, StartUpHeaderConfigType } from '../types';
 import { saveLocalData, retrieveLocalData, mergeLocalData } from "../components/localdata";
-import axios from 'axios';
 
 
 //new function
